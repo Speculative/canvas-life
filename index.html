@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="life.js"></script>
+	<title>Conway's Game of Life - Canvas Proof of Concept</title>
+</head>
+
+<body onload="init(10,10)">
+	<article>
+		<h1>Conway's Game of Life</h1>
+		<h2>In HTML5 Canvas + JS</h2>
+		<canvas width="500px" height="500px" id="life"></canvas>
+		<input id="delay" type="text" placeholder="Delay(ms)">
+		<button onclick="auto()">Auto</button>
+		<button onclick="next()">Next Frame</button>
+	</article>
+</body>
+
+</html>
